@@ -124,7 +124,8 @@ const Home = () => {
             Iqra
           </Text>
           <Text>
-            Iqra adalah aplikasi Al-Quran dengan ayat acak setiap harinya
+            Iqra adalah aplikasi Al-Quran dengan ayat acak setiap harinya.
+            terima kasih sudah menggunakan aplikasi Iqra.
           </Text>
           <Text style={{fontSize: 20, marginTop: 10, fontWeight: 'bold'}}>
             Fitur
