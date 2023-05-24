@@ -125,7 +125,6 @@ const Home = () => {
           </Text>
           <Text>
             Iqra adalah aplikasi Al-Quran dengan ayat acak setiap harinya.
-            terima kasih sudah menggunakan aplikasi Iqra.
           </Text>
           <Text style={{fontSize: 20, marginTop: 10, fontWeight: 'bold'}}>
             Fitur
@@ -145,6 +144,9 @@ const Home = () => {
           </Text>
           <Text>1. akhmadnuzula (Github, Linkedin)</Text>
           <Text>2. akhmadnuzula@gmail.com (Email)</Text>
+          <Text style={{marginTop: 10}}>
+            Terima kasih sudah menggunakan aplikasi Iqra.
+          </Text>
           <View style={{paddingHorizontal: '30%', marginTop: 20}}>
             <TouchableOpacity
               onPress={toggleModal}
