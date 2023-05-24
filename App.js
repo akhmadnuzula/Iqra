@@ -8,6 +8,10 @@ import SplashScreen from './src/pages/SplashScreen';
 import Home from './src/pages/Home';
 import IqraIcon from './src/assets/logo2.png';
 
+import codePush from 'react-native-code-push';
+
+let codePushOptions = {checkFrequency: codePush.CheckFrequency.ON_APP_START};
+
 // fungsi untuk mendeklarasikan create native stack navigator
 const Stack = createNativeStackNavigator();
 
@@ -28,6 +32,11 @@ const App = () => {
 
   useEffect(() => {
     singleTask();
+    // check new push code
+    codePush.sync({
+      updateDialog: true,
+      installMode: codePush.InstallMode.IMMEDIATE,
+    });
   }, []);
 
   // useEffect untuk aksi ketika pertama dibuka dan ketika ada respon
@@ -84,7 +93,7 @@ const App = () => {
   );
 };
 
-export default App;
+export default codePush(codePushOptions)(App);
 
 const styles = StyleSheet.create({
   view: {

@@ -2,4 +2,8 @@
     <string name="app_name">Iqra</string>
     <string name="appCenterCrashes_whenToSendCrashes" moduleConfig="true" translatable="false">DO_NOT_ASK_JAVASCRIPT</string>
     <string name="appCenterAnalytics_whenToEnableAnalytics" moduleConfig="true" translatable="false">ALWAYS_SEND</string>
+    <!-- production key -->
+    <!-- <string moduleConfig="true" name="CodePushDeploymentKey">UtGLYbCEplT1LvEzTmBeKAsw4RWyMf8ZIF6f4</string>  -->
+    <!-- staging key -->
+    <string moduleConfig="true" name="CodePushDeploymentKey">8zhlHhmzhjUA3TSEx3edsFk04nnLAoU2Kopbw</string>
 </resources>
